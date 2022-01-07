@@ -30,6 +30,8 @@ Il serait bien prétencieux de ma part de me lancer dans un tutoriel sur l'utili
 
 > En savoir plus https://developer.mozilla.org/fr/docs/Web/API/Canvas_API/Tutorial
 
+<br>
+
 ### P5.js : la librairie Javascript pour "Creative Coders"
 
 ![](https://i.imgur.com/KGKkrGK.png)
