@@ -1,4 +1,4 @@
-# Javascript Creative Coding
+# Digital Screen Painte
 
 *Manipuler la machine pour generer des interfaces créatives*
 
