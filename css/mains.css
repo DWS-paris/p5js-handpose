@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+html{
+    --primary-color: #427cac;
+    --light-color: #fefefe;
+
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: var(--light-color);
+    background-color: rgba(26,28,29,1);
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas{
+    margin: auto;
+    transform: scaleX(-1);
+}
+
+header,
+header div,
+footer{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+header,
+footer{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+
+    width: 100vw;
+    
+    flex-direction: column;
+}
+
+header{
+    top: 0;
+    height: 10rem;
+}
+
+footer{
+    bottom: 0;
+    height: 5rem;
+}
+
+header div,
+footer div{
+    margin: auto;
+    width: 100%;
+    max-width: 90rem;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 1.3;
+    color: var(--primary-color);
+    padding-left: 2rem;
+}
+
+h1 span,
+footer{
+    font-size: 0.7em;
+    font-weight: 300;
+    color: var(--light-color);
+}
+
+h1 span{
+    display: block;
+}
+
+h1 span b{
+    margin-left: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
