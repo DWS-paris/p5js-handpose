@@ -1,4 +1,4 @@
-# Digital Screen Painte
+# Digital Screen Painter
 
 *Manipuler la machine pour generer des interfaces créatives*
 
